@@ -1,0 +1,17 @@
+FiscalYear
+==========
+
+Add 'fiscal_year' method, that returns the fiscal year, to Ruby Date, Time and DateTime classes.
+
+
+Example
+=======
+
+% script/console
+Loading development environment (Rails 2.2.2)
+>> Date.new(2009, 3, 31).fiscal_year
+=> 2008
+>> Date.new(2009, 4, 1).fiscal_year
+=> 2009
+
+Copyright (c) 2009 Junya Ishihara, released under the MIT license
